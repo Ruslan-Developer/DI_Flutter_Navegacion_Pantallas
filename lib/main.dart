@@ -13,10 +13,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return  MaterialApp(
       debugShowCheckedModeBanner: false,
-      theme: AppTheme(selectedColor: 0).getTheme(),
-      home: const Scaffold(
+      theme: AppTheme(selectedColor: 1).getTheme(),
+      home:  Scaffold(
         body: Center(
-          child: Text("Hello World"),
+          child: FilledButton(
+            child: const Text('Filled Button'),
+            onPressed: () {},
+          )
         ),
       )
     );
