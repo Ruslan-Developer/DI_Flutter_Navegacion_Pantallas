@@ -29,10 +29,10 @@ class AppTheme{ //Sirve para cambiar el color de la app personalizada
     }): assert(selectedColor >= 0 && selectedColor <= colorList.length - 1);
 
     ThemeData getTheme() => ThemeData(
-      useMaterial3: true,
-      colorSchemeSeed: colorList[selectedColor],
-      appBarTheme: const AppBarTheme(
-        centerTitle: true
+      useMaterial3: true, //Se usa para que se vea el nuevo diseño de material
+      colorSchemeSeed: colorList[selectedColor], //Se cambia el color de la app
+      appBarTheme: const AppBarTheme( 
+        centerTitle: true //Se centra el titulo del appbar
       )
     );
 
