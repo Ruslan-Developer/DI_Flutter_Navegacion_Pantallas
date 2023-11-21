@@ -19,10 +19,10 @@ class MenuItem{
 const appMenuItems = <MenuItem>[
 
     MenuItem( //Se crea una lista de objetos de tipo MenuItem que sirve para crear el menu de la app
-    title: 'Botones', 
+    title: 'Medicamentos', 
     subtitle: 'varios tipos de botones', 
     link: '/buttons', 
-    icon: Icons.smart_button_outlined
+    icon: Icons.medical_information_outlined
     ),
 
     MenuItem(
