@@ -21,14 +21,14 @@ const appMenuItems = <MenuItem>[
     MenuItem( //Se crea una lista de objetos de tipo MenuItem que sirve para crear el menu de la app
     title: 'Medicamentos', 
     subtitle: 'varios tipos de botones', 
-    link: '/buttons', 
+    link: '/medicamentos', 
     icon: Icons.medical_information_outlined
     ),
 
     MenuItem(
     title: 'Pastillas', 
     subtitle: 'contenedor estilizado', 
-    link: '/pills', 
+    link: '/pastillas', 
     icon: Icons.medication
     ),
 ];
